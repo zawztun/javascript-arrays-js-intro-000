@@ -47,6 +47,7 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function removeElementFromBeginningOfArray(array){
-array.splice(1,0)
+  const items = [1, 2, 3]
+array.items.splice(1,0)
   return array
 }
