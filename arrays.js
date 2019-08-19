@@ -47,6 +47,6 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function removeElementFromBeginningOfArray(array){
-  items.shift()
+  array.shift()
   return array
 }
