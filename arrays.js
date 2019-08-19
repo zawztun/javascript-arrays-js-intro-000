@@ -45,3 +45,9 @@ function removeElementFromBeginningOfArray(array){
   array.slice(0)
   return array
 }
+
+function removeElementFromBeginningOfArray(array){
+  let items = [1, 2, 3]
+  array.slice(0,items)
+  return array
+}
