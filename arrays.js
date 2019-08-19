@@ -46,7 +46,7 @@ function removeElementFromBeginningOfArray(array){
   return array
 }
 
-lets items = function removeElementFromBeginningOfArray(array){
-  items.splice(1,0)
+function removeElementFromBeginningOfArray(array){
+array.splice(1,0)
   return array
 }
