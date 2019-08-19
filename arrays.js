@@ -48,6 +48,6 @@ function removeElementFromBeginningOfArray(array){
 
 function removeElementFromBeginningOfArray(array){
   let items = [1, 2, 3]
-  array.slice(0,0)
+  item.splice(1,0)
   return array
 }
