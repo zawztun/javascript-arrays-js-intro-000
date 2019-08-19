@@ -51,5 +51,5 @@ return array.slice(1)
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.length - 1
+  return array.unshift()
 }
