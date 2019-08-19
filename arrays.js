@@ -48,6 +48,6 @@ function removeElementFromBeginningOfArray(array){
 
 function removeElementFromBeginningOfArray(array){
   const items = [1, 2, 3]
-array.items.slice(0)
+items.slice(0)
   return array
 }
